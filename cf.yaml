@@ -4,30 +4,88 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _1"
-  network: ws
-  port: 443
-  server: powerservice.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  ws-headers:
-    Host: uk2.v2rayserv.com
-  ws-path: /sshocean
 - cipher: chacha20-ietf-poly1305
-  name: default_name_2
+  name: default_name_1
   password: 31347057-7af5-4562-b912-f1c217c4c160
   port: 27766
   server: hnt.cndns.shop
   type: ss
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  network: ws
+  port: 443
+  server: 185.162.228.229
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: default_name_3
+  network: ws
+  port: 443
+  server: 141.101.114.31
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _4"
+  network: ws
+  port: 443
+  server: 172.64.154.222
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: default_name_5
+  network: ws
+  port: 443
+  server: 198.41.203.1
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  ws-headers:
+    Host: lg1.cfcdn2.xyz
+  ws-path: /VHONOFZ3
+- alterId: 0
+  cipher: auto
+  name: default_name_6
+  network: ws
+  port: 80
+  server: uicdn.cf
+  type: vmess
+  udp: true
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-headers:
+    Host: sg3-v2ray.sshkit.org
+  ws-path: /sshkit/1736960111/63859bc177a33/
+- cipher: chacha20-ietf-poly1305
+  name: default_name_7
+  password: 31347057-7af5-4562-b912-f1c217c4c160
+  port: 27761
+  server: hnt.cndns.shop
+  type: ss
+- alterId: 0
+  cipher: auto
   name: "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD_3"
+    \u56FD_8"
   network: ws
   port: 443
   server: 203.30.190.190
@@ -40,277 +98,59 @@ proxies:
   ws-path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\
-    \u5C3C\u4E9A_4"
-  network: ws
-  port: 8443
-  server: ca.0112233.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  ws-headers:
-    Host: ca.0112233.xyz
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  network: ws
-  port: 42517
-  server: 13.125.24.153
-  type: vmess
-  udp: true
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  network: tcp
-  port: 53900
-  server: jpgithub.edgehelper.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
-  ws-headers:
-    Host: jpgithub.edgehelper.com
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _7"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
   network: ws
   port: 443
-  server: 219.76.13.180
+  server: 66.235.200.22
   tls: true
   type: vmess
   udp: true
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   ws-headers:
-    Host: clash6.ssr-free.xyz
-  ws-path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD_8"
-  network: ws
-  port: 443
-  server: 203.30.188.188
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  ws-headers:
-    Host: lg1.trump2023.us
-  ws-path: /ECTCJ0DF
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\
-    \u56FD_9"
-  network: ws
-  port: 443
-  server: 203.30.188.120
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  ws-path: /IYKLD53M
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  network: http
-  port: 44631
-  server: 152.70.89.67
-  type: vmess
-  udp: true
-  uuid: 198d8957-377e-4a06-d9ea-414cc0067de4
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: default_name_11
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-  port: 27763
-  server: hnt.cndns.shop
-  type: ss
-- cipher: aes-256-gcm
-  name: default_name_12
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 85.208.108.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: default_name_13
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-  port: 27762
-  server: hnt.cndns.shop
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  network: ws
-  port: 443
-  server: 172.64.154.150
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  ws-path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _15"
-  network: ws
-  port: 443
-  server: myjp.brucean.cn
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
-  ws-headers:
-    Host: myjp.brucean.cn
-  ws-path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _16"
-  password: b9c4f30f-0e95-4c23-80f8-b134414f43ec
-  port: 12083
-  server: bp.i809.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: default_name_17
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-  port: 27761
-  server: hnt.cndns.shop
-  type: ss
+    Host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
 - cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
+  name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
-  port: 8081
+  password: 3g0dHlKME
+  port: 32001
   protocol: origin
-  server: jp-am48-6.eqnode.net
+  server: sg-am3.eqsunshine.com
   type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: default_name_19
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-  port: 27765
-  server: hnt.cndns.shop
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  network: http
-  port: 57194
-  server: 47.242.30.73
-  type: vmess
-  udp: true
-  uuid: 190f9f72-0144-40c2-862b-8c7fbe7fc34a
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  network: ws
-  port: 20224
-  server: imgU140111366548.hk.huawei-cacahe.com
-  type: vmess
-  udp: true
-  uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
-  ws-headers:
-    Host: imgU140111366548.hk.huawei-cacahe.com
-- alterId: 0
-  cipher: auto
-  name: default_name_22
-  network: ws
-  port: 443
-  server: 104.16.207.183
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 27410ab6-c09d-4705-9f1a-00c31bbaa4bd
-  ws-headers:
-    Host: hlz.loyou.me
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: default_name_23
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-  port: 27764
-  server: hnt.cndns.shop
-  type: ss
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD\
-    _24"
-  password: ed3ccb1e-7057-3d40-b794-630ef18fb7d2
-  port: 20002
-  server: 20002.purefast2.com
-  skip-cert-verify: true
-  type: trojan
   udp: true
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - DIRECT
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -319,267 +159,139 @@ proxy-groups:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
   - DIRECT
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\U0001F6D1 \u5168\u7403\u62E6\u622A"
   proxies:
   - REJECT
   - DIRECT
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\U0001F343 \u5E94\u7528\u51C0\u5316"
   proxies:
   - REJECT
   - DIRECT
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 - name: "\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  - default_name_2
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A_4"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_5"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
+  - default_name_1
+  - "\U0001F1E6\U0001F1F2_AM_\u4E9A\u7F8E\u5C3C\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  - default_name_3
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  - default_name_5
+  - default_name_6
+  - default_name_7
   - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _8"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _9"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
-  - default_name_11
-  - default_name_12
-  - default_name_13
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  - default_name_17
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_18"
-  - default_name_19
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_20"
-  - "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F_21"
-  - default_name_22
-  - default_name_23
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_24"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_10"
   type: select
 rules:
 - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
